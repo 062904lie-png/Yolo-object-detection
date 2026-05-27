@@ -22,7 +22,7 @@ st.sidebar.header("⚙️ Settings")
 
 model_path = st.sidebar.text_input(
     "Model path (.pt)",
-    value="yolov8n.pt",
+    value="trained_yolov8_model.pt",
     help="Path to your trained YOLOv8 weights file.",
 )
 
